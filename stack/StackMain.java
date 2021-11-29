@@ -9,6 +9,13 @@ public class StackMain {
 		call.push(30);
 		call.push(56);
 		call.display();
+		call.pop();
+		call.peek();
+		call.pop();
+		call.pop();
+		call.pop();
+		call.display();
+		
 	}
 	
 }
